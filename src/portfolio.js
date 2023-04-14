@@ -11,26 +11,26 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Sunil Dutt",
+  title: "Hi all, I'm Sunil Dutt",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Full Stack Developer  👨‍💻 Information security Analyst 🤖 |A Learner  ✍️ "
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1s8YiHqZInuDYghiPbGHbCdAETI0l842A/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/dutt447utt447",
+  linkedin: "https://www.linkedin.com/in/sunil-dutt-b2125ba3",
+  gmail: "dutt447@gmail.com",
+  facebook: "https://www.facebook.com/dutt123",
+  twitter: "https://twitter.com/SunilDutt447",
+  medium: "https://medium.com/@dutt447",
+  
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -43,12 +43,15 @@ const skillsSection = {
   subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Designing and developing web/mobile App"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Managing the web Servers IIS, Apache, TomCat"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+      "⚡ Working on Language like C#, Python, JAVA, Dart, JavaScript, PHP, SQL, etc"
+    ),
+    emoji(
+      "⚡ Building API, predictive models to extract insights and make decisions out of data"
+    ),
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -63,10 +66,7 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "css3",
       fontAwesomeClassname: "fab fa-css3-alt"
     },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
+    
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
@@ -80,8 +80,8 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "Android",
+      fontAwesomeClassname: "fab fa-android"
     },
     {
       skillName: "npm",
@@ -104,9 +104,18 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
+      skillName: "Window Server",
+      fontAwesomeClassname: "fab fa-windows"
+    },
+    {
+      skillName: "Linux",
+      fontAwesomeClassname: "fab fa-linux"
+    },
+    {
+      skillName: "YouTube",
+      fontAwesomeClassname: "fab fa-youtube"
+    },
+    
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -114,7 +123,7 @@ https://fontawesome.com/icons?d=gallery */
 // Education Section
 
 const educationInfo = {
-  display: true, // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
   schools: [
     {
       schoolName: "Harvard University",
@@ -149,14 +158,18 @@ const techStack = {
     },
     {
       Stack: "Backend",
+      progressPercentage: "90%"
+    },
+    {
+      Stack: "Cyber Security",
       progressPercentage: "70%"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
+      Stack: "Digital Marketing",
+      progressPercentage: "70%"
     }
   ],
-  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  displayCodersrank: true // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
 
 // Work experience section
@@ -165,29 +178,29 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Full Stack software Developer",
+      company: "TechView",
+      companylogo: require("./assets/images/logo.webp"),
+      date: "July 2015 – Present",
+      desc: "more than 6 year experience in software developement",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "50+ software developed",
+        "Full stack solution"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Information Security Analyst",
+      company: "TechView",
+      companylogo: require("./assets/images/logo.webp"),
+      date: "May 2018 – Present",
+      desc: "4 year experience in cyber crime investigation anlysis"
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Digital Marketer",
+      company: "TechView",
+      companylogo: require("./assets/images/logo.webp"),
+      date: "Jan 2021 – Present",
+      desc: "Campaign of total 2L+ were run successfully"
     }
   ]
 };
@@ -207,25 +220,37 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/khabrana.webp"),
+      projectName: "SANTOS",
+      projectDesc: "CRPF online Transfer software",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "http://santoscrpf.com/"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/khabrana.webp"),
+      projectName: "Khabrana News",
+      projectDesc: "Khabrana News portal and android App",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "http://khabrana.com/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/jscure.webp"),
+      projectName: "JsCureMedical",
+      projectDesc: "E-commerce Website",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "http://jscuremedical.com/"
         }
       ]
     }
@@ -243,47 +268,79 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Google Certified Digital Marketer",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+        "Certified in Digital Marketting Fundamental year 2018",
+      image: require("./assets/images/digital.webp"),
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+          url: "https://drive.google.com/file/d/15QFrmH7_9YQh6gCmsQN9msvxuk6FG3rX/view?usp=sharing"
         },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
+        
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Cyber Crime Investigation",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
+        "National cybercrime training center (NCRB)",
+      image: require("./assets/images/ncrb.webp"),
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "Certification",
+          url: "https://drive.google.com/file/d/1xxZm1YS0TZ-zcHR5jMxy4VkJgZCZm1dP/view?usp=sharing"
         }
       ]
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
+      title: "Ethical Hacking",
+      subtitle: "Completed Certifcation from IIT khargpur, India for Ethical Hacking",
+      image: require("./assets/images/iit.webp"),
       footerLink: [
-        {name: "Certification", url: ""},
+        
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "Certification",
+          url: "https://drive.google.com/file/d/19ThCwV4sjljt53RKrXfYx9tOFEyXRI5G/view?usp=sharing"
+        }
+      ]
+    },
+    {
+      title: "Google Analytics",
+      subtitle: "Completed Certifcation from Google academy for Google Analytics",
+      image: require("./assets/images/analytic.webp"),
+      footerLink: [
+        
+        {
+          name: "Certification",
+          url: "https://drive.google.com/file/d/1yoA4hHQGTdHZQmOjbiGiGZne-SUWdEwX/view?usp=sharing"
+        }
+      ]
+    },
+    {
+      title: "Internet Of Things",
+      subtitle: "Completed Certifcation from CISCO academy for IoT",
+      image: require("./assets/images/cisco.webp"),
+      footerLink: [
+        
+        {
+          name: "Certification",
+          url: "https://drive.google.com/file/d/1wBGLj_CB2kR7nWkFs3SyfmVDtdUdICBS/view?usp=sharing"
+        }
+      ]
+    },
+    {
+      title: "Founded TechView Team",
+      subtitle: "In Year 2020 , started IT Learning Portal which provides Free Certification",
+      image: require("./assets/images/logo.webp"),
+      footerLink: [
+        {
+          name: "Learning Portal",
+          url: "https://www.techviewteam.com"
+        },
+        {
+          name: "Know All About Me",
+          url: "https://drive.google.com/file/d/1s8YiHqZInuDYghiPbGHbCdAETI0l842A/view?usp=sharing"
         }
       ]
     }
@@ -297,19 +354,19 @@ const blogSection = {
   title: "Blogs",
   subtitle:
     "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
+  displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      url: "http://dutttechview.blogspot.com/2018/08/how-to-send-confidential-mail-using-g.html",
+      title: "How to send confidential message using Gmail",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+        "Do you want to send confidential message using Gmail then this article is for you"
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
+      url: "http://dutttechview.blogspot.com/2018/07/check-your-email-address-password.html",
+      title: "How to check your Password is Safe?",
       description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+        "Article is about to know how can we check our password is safe."
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -318,18 +375,19 @@ const blogSection = {
 // Talks Sections
 
 const talkSection = {
-  title: "TALKS",
+  title: "YouTube",
   subtitle: emoji(
-    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
+    "I LOVE TO SHARE MY LIMITED KNOWLEDGE THROUGH YOUTUBE ALSO😅"
   ),
 
   talks: [
     {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
-    }
+      title: "Visit Our YouTube Channel",
+      subtitle: "YouTube",
+      slides_url: "https://www.youtube.com/channel/UCRI10CdtQJMFzHcxbuHSe8Q",
+      event_url: "https://www.youtube.com/channel/UCRI10CdtQJMFzHcxbuHSe8Q?sub_confirmation=1"
+    },
+    
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -337,28 +395,28 @@ const talkSection = {
 // Podcast Section
 
 const podcastSection = {
-  title: emoji("Podcast 🎙️"),
-  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
+  title: emoji("YouTube 🎙️"),
+  subtitle: "I LOVE TO TALK ABOUT CYBER AWARENESS AND TECHNOLOGY",
 
   // Please Provide with Your Podcast embeded Link
   podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
+    "https://youtu.be/lOqHTpG-DkM"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-3243454077",
-  email_address: "saadpasta70@gmail.com"
+  number: "+91-8619333672",
+  email_address: "dutt447@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
+  userName: "SunilDutt447", //Replace "twitter" with your twitter username without @
   display: true // Set true to display this section, defaults to false
 };
 
