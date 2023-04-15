@@ -14,7 +14,7 @@ const greeting = {
   username: "Sunil Dutt",
   title: "Hi all, I'm Sunil Dutt",
   subTitle: emoji(
-    "A passionate Full Stack Developer  👨‍💻 Information security Analyst 🤖 |A Learner  ✍️ "
+    "A passionate Full Stack Developer  👨‍💻 Information security Analyst 🤖 |A Learner  ✍️ With several years of experience in the tech industry, I have developed a keen understanding of the latest technologies and trends. On this website, you'll find a collection of my work, skills, and achievements, as well as a glimpse into my professional journey. As a tech enthusiast, I am always eager to take on new challenges and explore new areas of interest. So, take a look around and get to know me better!"
   ),
   resumeLink:
     "https://drive.google.com/file/d/1s8YiHqZInuDYghiPbGHbCdAETI0l842A/view?usp=sharing", // Set to empty to hide the button
@@ -43,15 +43,22 @@ const skillsSection = {
   subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
-      "⚡ Designing and developing web/mobile App"
+      "⚡ Full-stack web development using modern technologies like Node.js, React, and MongoDB."
     ),
     emoji("⚡ Managing the web Servers IIS, Apache, TomCat"),
     emoji(
-      "⚡ Working on Language like C#, Python, JAVA, Dart, JavaScript, PHP, SQL, etc"
+      "⚡ Developed SANTOS, an innovative web portal and mobile app for personnel transfers in CRPF"
     ),
     emoji(
-      "⚡ Building API, predictive models to extract insights and make decisions out of data"
+      "⚡ Passionate about learning new technologies and staying up-to-date with industry trends"
     ),
+    emoji(
+      "⚡  Committed to delivering high-quality work that meets or exceeds client expectations"
+    ),
+    emoji(
+      "⚡ Worked on various IT initiatives for CRPF, including the CRPF SAMBHAV App, SANTOS, and the Intranet Based Web App"
+    ),
+   
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -184,7 +191,7 @@ const workExperiences = {
       date: "July 2015 – Present",
       desc: "more than 6 year experience in software developement",
       descBullets: [
-        "50+ software developed",
+        "60+ software developed",
         "Full stack solution"
       ]
     },
@@ -193,7 +200,7 @@ const workExperiences = {
       company: "TechView",
       companylogo: require("./assets/images/logo.webp"),
       date: "May 2018 – Present",
-      desc: "4 year experience in cyber crime investigation anlysis"
+      desc: "4 year experience in cyber crime investigation and analysis"
     },
     {
       role: "Digital Marketer",
@@ -239,6 +246,17 @@ const bigProjects = {
         {
           name: "Visit Website",
           url: "http://jscuremedical.com/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/jscure.webp"),
+      projectName: "SANTOS",
+      projectDesc: "CRPF's Innovative Transfer Software ",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "http://crpf.gov.in/"
         }
       ]
     }
@@ -318,7 +336,7 @@ const achievementSection = {
       ]
     },
     {
-      title: "Founded TechView Team",
+      title: "TechView Team",
       subtitle: "In Year 2020 , started IT Learning Portal which provides Free Certification",
       image: require("./assets/images/logo.webp"),
       footerLink: [
@@ -329,6 +347,18 @@ const achievementSection = {
         {
           name: "Know All About Me",
           url: "https://drive.google.com/file/d/1s8YiHqZInuDYghiPbGHbCdAETI0l842A/view?usp=sharing"
+        }
+      ]
+    }
+    {
+      title: "Developed SANTOS",
+      subtitle: "In Year 2022 , System for Annual Transfer Over Software (SANTOS) Developed By SUNIL DUTT for CRPF ",
+      image: require("./assets/images/logo.webp"),
+      footerLink: [
+        
+        {
+          name: "Know More",
+          url: "https://techviewteam.blogspot.com/2023/04/crpfs-innovative-transfer-software.html"
         }
       ]
     }
@@ -345,13 +375,13 @@ const blogSection = {
   displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "http://dutttechview.blogspot.com/2018/08/how-to-send-confidential-mail-using-g.html",
+      url: "http://techviewteam.blogspot.com/2018/08/how-to-send-confidential-mail-using-g.html",
       title: "How to send confidential message using Gmail",
       description:
         "Do you want to send confidential message using Gmail then this article is for you"
     },
     {
-      url: "http://dutttechview.blogspot.com/2018/07/check-your-email-address-password.html",
+      url: "http://techviewteam.blogspot.com/2018/07/check-your-email-address-password.html",
       title: "How to check your Password is Safe?",
       description:
         "Article is about to know how can we check our password is safe."
