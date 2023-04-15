@@ -1,43 +1,43 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f7d301acc600777ed0146e841df142aa",
+    "revision": "00ef3001759ec08947684f789e6cbe24",
     "url": "/index.html"
   },
   {
-    "revision": "94358c5a284d41014d92",
+    "revision": "559f713adc4e01e26b5d",
     "url": "/static/css/3.df879eac.chunk.css"
   },
   {
-    "revision": "a41d8797aa0ee1029bca",
+    "revision": "1c3edcb9838be962c537",
     "url": "/static/css/4.e91a4b36.chunk.css"
   },
   {
-    "revision": "bea6c9912275ecc919c1",
+    "revision": "2db72bc95eb3d106014e",
     "url": "/static/css/main.66262938.chunk.css"
   },
   {
-    "revision": "23edfa608be9034240d5",
-    "url": "/static/js/2.abe87d22.chunk.js"
+    "revision": "0a9da063ec51d58c6bed",
+    "url": "/static/js/2.d69961db.chunk.js"
   },
   {
     "revision": "6e1d2efc12a1ac972ff1f942df7eb0bd",
-    "url": "/static/js/2.abe87d22.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.d69961db.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "94358c5a284d41014d92",
-    "url": "/static/js/3.75c98bb5.chunk.js"
+    "revision": "559f713adc4e01e26b5d",
+    "url": "/static/js/3.6378aa12.chunk.js"
   },
   {
-    "revision": "a41d8797aa0ee1029bca",
-    "url": "/static/js/4.fc6a6008.chunk.js"
+    "revision": "1c3edcb9838be962c537",
+    "url": "/static/js/4.738bcf8c.chunk.js"
   },
   {
-    "revision": "bea6c9912275ecc919c1",
-    "url": "/static/js/main.bb04297d.chunk.js"
+    "revision": "2db72bc95eb3d106014e",
+    "url": "/static/js/main.d5564e01.chunk.js"
   },
   {
-    "revision": "44b57e684aea6beb40eb",
-    "url": "/static/js/runtime-main.685f5a99.js"
+    "revision": "6ceb0a95b0c038c5e40a",
+    "url": "/static/js/runtime-main.ecfcab8e.js"
   },
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
@@ -94,6 +94,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d2c024349c416a3fefbb4505f81341e4",
     "url": "/static/media/ncrb.d2c02434.webp"
+  },
+  {
+    "revision": "759fe3c8d3560b74b0b15cbd157fc6c5",
+    "url": "/static/media/santos_logo.759fe3c8.jpg"
   },
   {
     "revision": "3440939881da8339d1597e8d77cdf850",
