@@ -250,7 +250,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/jscure.webp"),
+      image: require("./assets/images/santos_logo.jpg"),
       projectName: "SANTOS",
       projectDesc: "CRPF's Innovative Transfer Software ",
       footerLink: [
@@ -349,11 +349,11 @@ const achievementSection = {
           url: "https://drive.google.com/file/d/1s8YiHqZInuDYghiPbGHbCdAETI0l842A/view?usp=sharing"
         }
       ]
-    }
+    },
     {
       title: "Developed SANTOS",
       subtitle: "In Year 2022 , System for Annual Transfer Over Software (SANTOS) Developed By SUNIL DUTT for CRPF ",
-      image: require("./assets/images/logo.webp"),
+      image: require("./assets/images/santos_logo.jpg"),
       footerLink: [
         
         {
