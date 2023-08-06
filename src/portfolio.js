@@ -361,6 +361,18 @@ const achievementSection = {
           url: "https://techviewteam.blogspot.com/2023/04/crpfs-innovative-transfer-software.html"
         }
       ]
+    },
+    {
+      title: "India Book Of Records",
+      subtitle: "In the year 2023, the India Book of Records recognized and documented the achievement of SANTOS development under the title : Maximum CRPF Personnel Transferred and Tracked. This accomplishment involved the utilization of a software created by an individual.",
+      image: require("https://indiabookofrecords.in/wp-content/uploads/2021/01/cropped-Logo_India-Book-of-Records_IBR-100x100.png"),
+      footerLink: [
+        
+        {
+          name: "Know More",
+          url: "https://techviewteam.blogspot.com/2023/04/crpfs-innovative-transfer-software.html"
+        }
+      ]
     }
   ],
   display: true // Set false to hide this section, defaults to true
