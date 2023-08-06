@@ -14,7 +14,7 @@ const greeting = {
   username: "Sunil Dutt",
   title: "Hi all, I'm Sunil Dutt",
   subTitle: emoji(
-    "A passionate Full Stack Developer  👨‍💻 Information security Analyst 🤖 |A Learner  ✍️ With several years of experience in the tech industry, I have developed a keen understanding of the latest technologies and trends. On this website, you'll find a collection of my work, skills, and achievements, as well as a glimpse into my professional journey. As a tech enthusiast, I am always eager to take on new challenges and explore new areas of interest. So, take a look around and get to know me better!"
+    "A passionate Full Stack Developer  👨‍💻 Record Holder,India Book Of Records 🤖 |A Learner  ✍️ With several years of experience in the tech industry, I have developed a keen understanding of the latest technologies and trends. On this website, you'll find a collection of my work, skills, and achievements, as well as a glimpse into my professional journey. As a tech enthusiast, I am always eager to take on new challenges and explore new areas of interest. So, take a look around and get to know me better!"
   ),
   resumeLink:
     "https://drive.google.com/file/d/1s8YiHqZInuDYghiPbGHbCdAETI0l842A/view?usp=sharing", // Set to empty to hide the button
