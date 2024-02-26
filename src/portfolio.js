@@ -404,7 +404,7 @@ const achievementSection = {
     {
       title: "National Police Programming Medalist",
       subtitle: "Proudly clinched Bronze in the national-level 67th AIPDM programming event, demonstrating prowess in ASP.NET",
-      image: require("./assets/images/sunilduttmedal.jpg"),
+      image: require("./assets/images/sunilduttmedal.jpeg"),
       footerLink: [
         
         {
@@ -416,7 +416,7 @@ const achievementSection = {
     {
       title: "SANTOS: Champion IT Project",
       subtitle: "In the year 2024,  SANTOS, was awarded the Champion IT Project title at AIPDM, underscoring its innovation and excellence. Thrilled to receive the certificate!",
-      image: require("./assets/images/santostorphy.jpg"),
+      image: require("./assets/images/santostrophy.jpeg"),
       footerLink: [
         
         {
