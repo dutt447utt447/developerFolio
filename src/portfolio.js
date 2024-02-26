@@ -160,16 +160,20 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Frontend/Design", 
+      progressPercentage: "90%" 
     },
     {
       Stack: "Backend",
       progressPercentage: "90%"
     },
     {
+      Stack: "DevOps", 
+      progressPercentage: "85%" 
+    },
+    {
       Stack: "Cyber Security",
-      progressPercentage: "70%"
+      progressPercentage: "75%"
     },
     {
       Stack: "Digital Marketing",
@@ -227,13 +231,24 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
+      image: require("./assets/images/santos_logo.jpg"),
+      projectName: "SANTOS",
+      projectDesc: "CRPF's Innovative Transfer Software ",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://crpf.gov.in/"
+        }
+      ]
+    },
+    {
       image: require("./assets/images/khabrana.webp"),
       projectName: "Khabrana News",
       projectDesc: "Khabrana News portal and android App",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://khabrana.com/"
+          url: "https://khabrana.com/"
         }
         //  you can add extra buttons here.
       ]
@@ -245,18 +260,30 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://jscuremedical.com/"
+          url: "https://jscuremedical.com/"
         }
       ]
     },
     {
-      image: require("./assets/images/santos_logo.jpg"),
-      projectName: "SANTOS",
-      projectDesc: "CRPF's Innovative Transfer Software ",
+      image: require("./assets/images/brg.webp"),
+      projectName: "BRG Tour India",
+      projectDesc: "Online Taxi booking service",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://crpf.gov.in/"
+          url: "https://brgtourindia.com/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/kisaankidukan.webp"),
+      projectName: "Kisaan Ki Dukan",
+      projectDesc: "Agriculture E-commerce and more",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://kisaankidukan.com/"
         }
       ]
     }
@@ -371,6 +398,30 @@ const achievementSection = {
         {
           name: "Know More",
           url: "https://techviewteam.blogspot.com/2023/04/crpfs-innovative-transfer-software.html"
+        }
+      ]
+    },
+    {
+      title: "National Police Programming Medalist",
+      subtitle: "Proudly clinched Bronze in the national-level 67th AIPDM programming event, demonstrating prowess in ASP.NET",
+      image: require("./assets/images/sunilduttmedal.jpg"),
+      footerLink: [
+        
+        {
+          name: "Know More",
+          url: "https://www.indianwebs.in/2024/02/crpf-programmers-secure-bronze-at.html"
+        }
+      ]
+    },
+    {
+      title: "SANTOS: Champion IT Project",
+      subtitle: "In the year 2024,  SANTOS, was awarded the Champion IT Project title at AIPDM, underscoring its innovation and excellence. Thrilled to receive the certificate!",
+      image: require("./assets/images/santostorphy.jpg"),
+      footerLink: [
+        
+        {
+          name: "Know More",
+          url: "https://www.indianwebs.in/2024/02/santos-software-champion-it-project-at.html"
         }
       ]
     }
