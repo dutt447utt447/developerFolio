@@ -1,6 +1,11 @@
 {
+<<<<<<< HEAD:public/manifest.json
   "short_name": "SunilDutt",
   "name": "SunilDutt",
+=======
+  "short_name": "DeveloperFolio",
+  "name": "DeveloperFolio",
+>>>>>>> 55e1e3aefaf36d838a4507f67385a88f5f807919:manifest.json
   "icons": [
     {
       "src": "/favicon.ico",
